@@ -1,0 +1,44 @@
+{
+    "maintenance":{
+        "selectCourtSlot": "Chọn khung giờ",
+        "time": "Thời gian",
+        "description": "Mô tả",
+        "status": "Trạng thái"
+    },
+    "court": {
+        "addTimeSlot": "Thêm khung giờ",
+        "addSubCourt": "Thêm khu vực sân",
+        "editSubCourt": "Chỉnh sửa khu vực sân",
+        "weekdaySlots": "Khung giờ thường",
+        "weekendSlots": "Khung giờ cuối tuần",
+        "dayType": "Loại ngày",
+        "timeRange": "Khung giờ",
+        "regularPrice": "Giá thường",
+        "dailyPrice": "Giá hàng ngày",
+        "studentPrice": "Giá học sinh",
+        "courtName": "Tên sân",
+        "selectMainCourt": "Chọn sân chính",
+        "selectSubCourt": "Chọn khu vực sân",
+        "selectDayType": "Chọn loại ngày",
+        "selectTimeRange": "Chọn khung giờ",
+        "timeSlot": "Khung giờ",
+        "subCourtList": "Danh sách khu vực sân",
+        "editTimeSlot": "Chỉnh sửa khung giờ",
+        "addAnotherSlot": "Thêm khung thời gian mới",
+        "addWeekdaySlot": "Thêm khung giờ thường",
+        "addWeekendSlot": "Thêm khung giờ cuối tuần",
+        "status": "Trạng thái",
+        "addCourtSlot": "Thêm khung giờ sân",
+        "editCourtSlot": "Chỉnh sửa khung giờ sân",
+        "errors": {
+            "dailyPrice": "Vui lòng nhập giá hàng ngày",
+            "studentPrice": "Vui lòng nhập giá học sinh",
+            "courtName": "Vui lòng nhập tên sân",
+            "timeRange": "Vui lòng chọn khung giờ",
+            "minPrice": "Giá tối thiểu là {{min}} đồng",
+            "invalidTimeRange": "Thời gian bắt đầu phải trước thời gian kết thúc",
+            "overlappingTimeSlots": "Khung giờ bị trùng lặp",
+            "overlappingCourtSlot": "Khung giờ sân bị trùng lặp"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "required": "Field is required",
+  "email": "Email is invalid",
+  "invalid": "invalid",
+  "stringMin": "min {{value}} character",
+  "invalidType": "Field must be a {{type}}"
+}

@@ -1,0 +1,10 @@
+{
+    "other_permissions": "Quyền khác",
+    "select_permissions": "Chọn quyền",
+    "name": "Tên",
+    "description": "Mô tả",
+    "permissions": "Quyền",
+    "add_role": "Thêm vai trò",
+    "edit_role": "Sửa vai trò",
+    "create_title": "Tạo vai trò"
+}

@@ -1,0 +1,20 @@
+.revenue-table {
+  :global {
+    thead {
+      th {
+        border-bottom: none !important;
+        background-color: white !important;
+        font-weight: 700 !important;
+        &::before {
+          display: none;
+        }
+      }
+    }
+    tbody {
+      td {
+        border-bottom: none !important;
+        font-weight: 500;
+      }
+    }
+  }
+}

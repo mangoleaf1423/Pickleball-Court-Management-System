@@ -1,0 +1,34 @@
+{
+  "monthly_revenue": "Chi phí tháng",
+  "request_total": "Tổng số request",
+  "request_success": "Request thành công",
+  "request_fail": "Request thất bại",
+  "quota_total": "Tổng định mức",
+  "quota_remain": "Định mức còn lại",
+  "expected_cost": "Chi phí dự kiến",
+  "visit_chart": "Biểu Đồ Lượt Truy Cập",
+  "revenue_chart": "Biểu Đồ Doanh Thu",
+  "cost_chart": "Biểu Đồ Chi Phí",
+  "quota_chart": "Biểu Đồ Định Mức",
+  "top_revenue": "Top Chi Phí",
+  "this_month": "dữ liệu trong tháng",
+  "total": "Tổng",
+  "choose_dashboard": "Chọn dashboard",
+  "legend": {
+    "request_success": "Số lượt thành công",
+    "request_fail": "Số lượt thất bại",
+    "revenue": "Doanh thu",
+    "cost": "Chi phí",
+    "success": "Thành công",
+    "fail": "Thất bại",
+    "quota": "Định mức"
+  },
+  "columns": {
+    "partner_name": "Tài khoản",
+    "email": "Email",
+    "phone_number": "Số điện thoại",
+    "total_success_transaction": "Số lượt request thành công",
+    "total_revenue": "Tổng doanh thu (đ)",
+    "total_cost": "Tổng chi phí (đ)"
+  }
+}

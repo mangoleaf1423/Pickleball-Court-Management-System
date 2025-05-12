@@ -1,0 +1,15 @@
+{
+    "title_court_prices": "Court Prices",
+    "court_name": "Court Name",
+    "phone_number": "Phone Number",
+    "open_time": "Open Time",
+    "close_time": "Close Time",
+    "link_website": "Link Website",
+    "address": "Address",
+    "province": "Province",
+    "district": "District",
+    "ward": "Ward",
+    "add_court_prices": "Add Court Prices",
+    "edit_court_prices": "Edit Court Prices",
+    "status": "Status"
+}

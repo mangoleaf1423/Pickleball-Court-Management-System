@@ -1,0 +1,15 @@
+{
+  "code": "Code",
+  "name": "Name",
+  "description": "Description",
+  "value": "Value",
+  "unit": "Unit",
+  "EKYC_ORIGINAL_PRICE": {
+    "name": "SYSTEM-EKYC-PRICE",
+    "description": "Price for ekyc customers per request success"
+  },
+  "POST_PAID_ORIGINAL_PRICE": {
+    "name": "SYSTEM-VERIFY-PRICE",
+    "description": "Price for postpaid customers (đ) per request success"
+  }
+}

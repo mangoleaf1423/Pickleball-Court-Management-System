@@ -1,0 +1,7 @@
+{
+  "required": "Vui lòng nhập",
+  "email": "Email is invalid",
+  "invalid": "invalid",
+  "stringMin": "ít nhất {{value}} ký tự",
+  "invalidType": "Trường phải là {{type}}"
+}

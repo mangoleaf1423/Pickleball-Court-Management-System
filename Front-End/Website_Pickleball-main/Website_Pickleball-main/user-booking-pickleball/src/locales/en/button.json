@@ -1,0 +1,12 @@
+{
+  "add_account": "Add Account",
+  "add_quota": "Add Quota",
+  "search": "Search",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "login": "Login",
+  "register": "Register",
+  "upgrade_account": "Upgrade Account",
+  "upgrade_account_success": "Upgrade Account Success",
+  "upgrade_account_failed": "Upgrade Account Failed"
+}

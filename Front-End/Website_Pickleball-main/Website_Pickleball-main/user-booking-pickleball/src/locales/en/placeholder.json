@@ -1,0 +1,20 @@
+{
+  "search": "Search",
+  "status": "Status",
+  "select_day": "Select day",
+  "select": "Select",
+  "select_month": "Select month",
+  "select_year": "Select year",
+  "start_date": "Start date",
+  "end_date": "End date",
+  "scope": "Select type report",
+  "please_input": "Please input",
+  "partner_name": "Partner name",
+  "device": "Device",
+  "service": "Service",
+  "code": "Code",
+  "register": "Register",
+  "login": "Login",
+  "firstName": "First name",
+  "lastName": "Last name"
+}

@@ -1,0 +1,17 @@
+{
+    "title_court_prices": "Sân",
+    "court_name": "Tên sân",
+    "phone_number": "Số điện thoại",
+    "open_time": "Giờ mở cửa",
+    "close_time": "Giờ đóng cửa",
+    "link_website": "Liên kết website",
+    "address": "Địa chỉ",
+    "province": "Tỉnh/Thành phố",
+    "district": "Quận/Huyện",
+    "ward": "Phường/Xã",
+    "add_court_prices": "Thêm sân",
+    "edit_court_prices": "Sửa sân",
+    "status": "Trạng thái",
+    "logo": "Logo",
+    "background": "Ảnh nền"
+}

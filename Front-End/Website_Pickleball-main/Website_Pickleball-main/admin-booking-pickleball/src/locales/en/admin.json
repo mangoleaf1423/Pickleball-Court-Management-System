@@ -1,0 +1,41 @@
+{
+    "maintenance":{
+        "selectCourtSlot": "Select Court Slot",
+        "time": "Time",
+        "description": "Description",
+        "status": "Status"
+    },
+    "court": {
+        "addTimeSlot": "Add Time Slot",
+        "addSubCourt": "Add Sub Court",
+        "weekdaySlots": "Weekday Slots",
+        "weekendSlots": "Weekend Slots",
+        "dayType": "Day Type",
+        "timeRange": "Time Range",
+        "regularPrice": "Regular Price",
+        "dailyPrice": "Daily Price",
+        "studentPrice": "Student Price",
+        "courtName": "Court Name",
+        "editSubCourt": "Edit Sub Court",
+        "selectMainCourt": "Select Main Court",
+        "selectSubCourt": "Select Sub Court",
+        "selectDayType": "Select Day Type",
+        "selectTimeRange": "Select Time Range",
+        "timeSlot": "Time Slot",
+        "actions": "Actions",
+        "delete": "Delete",
+        "edit": "Edit",
+        "subCourtList": "Sub Court List",
+        "status": "Status",
+        "editTimeSlot": "Edit Time Slot",
+        "addAnotherSlot": "Add Another Slot",
+        "addWeekdaySlot": "Add Weekday Slot",
+        "addWeekendSlot": "Add Weekend Slot",
+        "errors": {
+            "dailyPrice": "Please enter daily price",
+            "studentPrice": "Please enter student price",
+            "courtName": "Please enter court name",
+            "timeRange": "Please select time range"
+        }
+    }
+}

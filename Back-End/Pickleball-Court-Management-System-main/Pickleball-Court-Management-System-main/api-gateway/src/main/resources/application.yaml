@@ -1,0 +1,44 @@
+DEFAULT:
+  PORT: 8080
+  COURT_SERVICE: http://localhost:8082
+  IDENTITY_SERVICE: http://localhost:8081
+  WHITE_LIST: /identity/auth|/court/public|/identity/users/create_user|/identity/users/registerForStudent|/identity/public
+
+---
+
+server:
+  port: ${PORT:${DEFAULT.PORT}}
+
+spring:
+  application:
+    name: api-gateway
+  main:
+    web-application-type: reactive
+    allow-bean-definition-overriding: true
+  config:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods: "*"
+  data:
+    redis:
+      database: 0
+      host: 203.145.46.242
+      port: 6379
+      password: Pickleball@123
+
+logging:
+  level:
+    org.springframework.web.cors: DEBUG
+
+service-url:
+  court-service: ${COURT_SERVICE:${DEFAULT.COURT_SERVICE}}
+  identity-service: ${IDENTITY_SERVICE:${DEFAULT.IDENTITY_SERVICE}}
+
+permit:
+  white_list: ${WHITE_LIST:${DEFAULT.WHITE_LIST}}
+
+

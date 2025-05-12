@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác nhận đăng ký</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .hidden-link {
+            color: transparent;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Chào <span th:text="${customerName}"></span>,</h2>
+    <p>Cảm ơn bạn đã đăng ký tài khoản. Vui lòng xác nhận email của bạn bằng cách nhấn vào nút bên dưới.</p>
+    <a th:href="${confirmationUrl}" class="button">Xác nhận tài khoản</a>
+
+    <!-- Link ẩn (phòng trường hợp người dùng không thấy nút) -->
+    <p>Nếu bạn không thấy nút, hãy nhấn vào <a th:href="${confirmationUrl}" class="hidden-link">đây</a>.</p>
+
+    <p>Nếu bạn không thực hiện đăng ký, hãy bỏ qua email này.</p>
+</div>
+</body>
+</html>

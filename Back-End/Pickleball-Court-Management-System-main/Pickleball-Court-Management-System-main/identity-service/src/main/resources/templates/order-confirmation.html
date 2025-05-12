@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác nhận đặt lịch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        h2 {
+            color: #ff8c00;
+        }
+        h3, h4 {
+            margin-bottom: 5px;
+        }
+        .table-container {
+            margin-top: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #ff8c00;
+            color: white;
+        }
+        .payment-info {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>🔔 Xác nhận đặt lịch thành công!</h2>
+    <p>Xin chào <strong th:text="${customerName}"></strong>,</p>
+    <p>Bạn đã đặt sân tại <strong th:text="${courtName}"></strong> - <span th:text="${address}"></span>.</p>
+
+    <h3>🏓 Chi tiết đặt sân:</h3>
+
+    <div th:each="entry : ${groupedByCourtSlot}" class="table-container">
+        <h4>🏟️ Sân: <span th:text="${entry.key}"></span></h4>
+        <table>
+            <thead>
+            <tr>
+                <th>Ngày đặt sân</th>
+                <th>Giờ bắt đầu</th>
+                <th>Giờ kết thúc</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="detail : ${entry.value}">
+                <td th:each="date : ${detail.bookingDates}" th:text="${#temporals.format(date, 'dd/MM/yyyy')}"></td>
+                <td th:text="${#temporals.format(detail.startTime, 'HH:mm')}"></td>
+                <td th:text="${#temporals.format(detail.endTime, 'HH:mm')}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="payment-info">
+        <h3>💳 Thông tin thanh toán:</h3>
+        <p><strong>Tổng tiền:</strong> <span th:text="${totalAmount}"></span></p>
+        <p><strong>Số tiền đã thanh toán:</strong> <span th:text="${amountPaid}"></span></p>
+    </div>
+
+    <p class="footer">Cảm ơn bạn đã đặt sân. Hẹn gặp bạn sớm! 🎾</p>
+</div>
+</body>
+</html>

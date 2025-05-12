@@ -1,0 +1,15 @@
+{
+  "code": "Code",
+  "name": "Tên",
+  "description": "Mô tả",
+  "value": "Giá trị",
+  "unit": "Đơn vị",
+  "EKYC_ORIGINAL_PRICE": {
+    "name": "SYSTEM-EKYC-PRICE",
+    "description": "Chi phí / một lượt gọi ekyc thành công"
+  },
+  "POST_PAID_ORIGINAL_PRICE": {
+    "name": "SYSTEM-VERIFY-PRICE",
+    "description": "Chi phí / một lượt gọi xác thực thành công"
+  }
+}

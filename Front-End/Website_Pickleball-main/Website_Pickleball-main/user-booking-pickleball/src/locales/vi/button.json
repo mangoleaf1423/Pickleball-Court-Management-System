@@ -1,0 +1,12 @@
+{
+  "add_account": "Tạo tài khoản",
+  "add_quota": "Thêm định mức",
+  "search": "Tìm kiếm",
+  "delete": "Xóa",
+  "cancel": "Thoát",
+  "login": "Đăng nhập",
+  "register": "Đăng kí",
+  "upgrade_account": "Nâng cấp tài khoản",
+  "upgrade_account_success": "Nâng cấp tài khoản thành công",
+  "upgrade_account_failed": "Nâng cấp tài khoản thất bại"
+}

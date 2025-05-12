@@ -1,0 +1,52 @@
+{
+  "detail": "Detail",
+  "logout": "Logout",
+  "no.": "No.",
+  "fail": "Fail",
+  "pagination": "{{from}} - {{to}} of {{total}} items",
+  "turns": "turns",
+  "back": "Back",
+  "search": "Search",
+  "student_id": "Student ID",
+  "invalid_student_id": "Invalid student ID format",
+  "password_required": "Password is required",
+  "password_min_length": "Password must be at least 8 characters",
+  "password_complexity": "Must contain uppercase, number and special character",
+  "email_required": "Email is required",
+  "invalid_email": "Invalid email format",
+  "first_name": "First name",
+  "first_name_required": "First name is required", 
+  "last_name": "Last name",
+  "last_name_required": "Last name is required",
+  "dob": "Date of Birth",
+  "dob_required": "Date of birth is required",
+  "password": "Password",
+  "full_name": "Full name",
+  "email": "Email",
+  "phone_number": "Phone number",
+  "phone_required": "Phone number is required",
+  "invalid_phone": "Invalid phone number format",
+
+
+  "button": {
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "add": "Add",
+    "export_excel": "Export Excel",
+    "destroy": "Cancel",
+    "update": "Update",
+    "ok": "Ok",
+    "update_password": "Update Password",
+    "update_apikey": "Update API Key",
+    "download": "Download"
+  },
+  "message": {
+    "success": "Success",
+    "fill_all": "Please fill out completely",
+    "confirm_cancel": "You definitely want to escape?",
+    "change_password": "Change password successfully. Please login again.",
+    "Internet Offline": "The network is currently offline, please try again later."
+  }
+}

@@ -1,0 +1,60 @@
+$width-header: 1200px;
+$height-header: 80px;
+$width-section: 1200px;
+
+$bg-dark-color-menu: #34444c;
+$bg-dark-color-menu-item-selected: #2a363d;
+$bg-primary-color: #3d464d;
+
+$text-primary-color: #1cb803;
+$primary-color: #1a75bc;
+
+$border-color-gray: #dfdfdf;
+
+$gray-color: #e9e9e9;
+
+$border-radius-sm: 6px;
+$border-radius-md: 8px;
+
+// Color
+$accent-b300: #076e9f;
+$accent-b200: #077eb6;
+$accent-b100: #068fd0;
+$accent-b90: #0599e0;
+$accent-b80: #11a6ee;
+$accent-b70: #37b4f1;
+$accent-b60: #5bc0f1;
+$accent-b50: #84cef1;
+$accent-b40: #acdef6;
+$accent-b30: #d6effa;
+$accent-b20: #e9f6fc;
+$accent-b10: #f7fbfe;
+
+$neutral-n800: #00222f;
+$neutral-n700: #12323e;
+$neutral-n600: #26434e;
+$neutral-n500: #3d5761;
+$neutral-n400: #526972;
+$neutral-n300: #667a82;
+$neutral-n200: #788a91;
+$neutral-n100: #8a9aa0;
+$neutral-n90: #99a7ac;
+$neutral-n80: #a8b4b8;
+$neutral-n70: #b8c1c5;
+$neutral-n60: #c7ced1;
+$neutral-n50: #d4dadc;
+$neutral-n40: #e0e4e6;
+$neutral-n30: #ebeeef;
+$neutral-n20: #f2f4f4;
+$neutral-n10: #fafbfb;
+$neutral-n0: #ffffff;
+
+:export {
+  primaryColor: $primary-color;
+  primaryColorHover: $accent-b200;
+}
+
+:root {
+  --primaryColor: #1a75bc;
+  --primaryColorHover: $accent-b200;
+}

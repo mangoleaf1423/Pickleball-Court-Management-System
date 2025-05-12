@@ -1,0 +1,14 @@
+.partner-form {
+  :global {
+    .ant-form-item {
+      margin-bottom: 8px;
+    }
+    .ant-form-item-label {
+      padding-bottom: 0 !important;
+      label {
+        color: $neutral-n400 !important;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.sider-wrapper {
+  @include scrollbars();
+}
+
+.language {
+  :global {
+    .ant-select-item-option-content {
+      @include flex(row, center, center);
+    }
+  }
+}
